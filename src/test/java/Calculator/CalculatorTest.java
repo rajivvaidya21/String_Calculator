@@ -45,6 +45,10 @@ public class CalculatorTest {
         assertEquals(calculator.add("/\n1,2;4*&^4$$3&1"), 15);
     }
 
+    @Test
+    public void tenNumbers() throws Exception {
+        assertEquals(calculator.add("1,2,3,4,5,6,7,8,9,10"), 55);
+    }
 
     @Rule
     public ExpectedException expectedEx = ExpectedException.none();
