@@ -1,4 +1,3 @@
-target/
 ### IntelliJ IDEA ###
 .idea
 *.iws
@@ -7,3 +6,4 @@ target/
 
 
 *.class
+/target/
